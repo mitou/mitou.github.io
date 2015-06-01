@@ -6,7 +6,7 @@
 	$sendgrid = new SendGrid('mitou_admin', '1Q"w3E$r');
 //	$sendgrid = new SendGrid('azure_6ca73ca049a7dfc8da2e0db4d482c377@azure.com', 'Ga879MNNhKBO3c0');
 
-	$to = "takanobu.miki@lunascape.co.jp";
+	$to = "head-office@mitou.org";
 	$subject = "未踏HPからメールが届きました";
 
 	if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
