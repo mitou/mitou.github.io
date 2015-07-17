@@ -18,9 +18,79 @@
 	<link href="../assets/css/style.css" rel="stylesheet">
 	<link href="../assets/css/vertical.css" rel="stylesheet">
     <!--realway font-->
-    <link rel='stylesheet' id='ebor-font-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C400%2C500&#038;ver=4.0.1' type='text/css' media='all' />
-<link rel='stylesheet' id='ebor-awesome-css'  href='http://ja-jp-website-mitou.azurewebsites.net/wp-content/themes/tides/css/font-awesome.min.css?ver=4.0.1' type='text/css' media='all' />
+    <!--<link rel='stylesheet' id='ebor-font-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A300%2C400%2C500&#038;ver=4.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-awesome-css'  href='http://ja-jp-website-mitou.azurewebsites.net/wp-content/themes/tides/css/font-awesome.min.css?ver=4.0.1' type='text/css' media='all' />-->
 
+<style type="text/css">
+body{
+color:#000;
+font-size:16px;
+line-height:1.7;
+}
+.page-section{
+}
+#main-area{
+	padding:30px 20px;
+	border-top:15px solid #ccc;
+}
+h1.section-title{
+	margin:0 0 40px 0;
+}
+#catch-image{
+	text-align:center;
+	margin:1em;
+	background:url(images/skyrounge1024.jpg) no-repeat top center;
+	background-size:cover;
+	height:300px;
+	}
+		#catch-image div#pickup{
+		text-align:left;
+ margin:1em;
+ background-color:#000;
+ opacity:0.8;
+ padding:0 1em 1em 1em;
+ border-radius:8px;
+ border:1px solid #333;
+	}
+		#catch-image p{
+line-height:1.5;
+	}
+
+	#catch-image h2{
+	text-align:center;
+color:#fff;
+font-weight:normal;
+font-size:24px;
+border-bottom:1px solid #ccc;
+	}
+#toc h2{
+	font-size:24px;
+	font-weight:bold;
+}
+
+#works-grid li{
+border-right:1px solid #999;
+}
+#works-grid li:nth-child(4){
+border:none;
+}
+
+.work-item a{
+	margin:0 0.25em;
+	padding:0 1em;
+}
+
+.work-item a:hover{
+	background-color:#e74c3c;
+	opacity: 1;
+}
+.callout-title{
+	font-weight:bold;
+}
+.footer p{
+	font-size:13px;
+}
+</style>
 
 
 <script>
@@ -95,87 +165,63 @@
 	<div class="main">
 
 		<!-- Header section start -->
-		<section class="page-section bg-dark">
-			<div class="container">
+		<section class="page-section" style="padding:0">
+			<div class="container bg-dark" id="main-area">
 
 				<div class="row">
 
 					<div class="col-sm-12">
 
-						<h1 class="section-title font-alt">MITOU MAGAZINE</h1>
-						<div class="section-subtitle font-serif mb-0">2015年7月17日（創刊）号</div>
-
+						<h1 class="section-title">MITOU MAGAZINE</h1>
+						<div class="section-subtitle mb-0" style="padding-bottom:30px">2015年7月17日（創刊）号</div>
 					</div>
 
 				</div><!-- .row -->
+				<div class="row">
 
+<div id="catch-image">
+<div class="col-sm-4" id="pickup">
+
+                        <h2>今月号のピックアップ</h2>
+                                      <p>
+<strong style="color:#cc0000">第1回「未踏サロン」7月31日（金）開催！</strong><br>
+未踏社団として最初のイベント「未踏サロン」を開催します。参加方法や詳細は<a href="#contents2">本文にて</a>ご確認下さい。 </p>
+
+</div>
+
+</div>
 			</div>
+	
+
 		</section>
 		<!-- Header section end -->
 
 
-		<!-- Team start -->
-		<section id="boardmembers" class="page-section bg-white">
-        
-        			<div class="container">
-	
+		<!-- TOC start -->
+        		<section id="toc" class="page-section bg-white" style="padding:0 0 60px 0">
+
+               <div class="container">
 
 				<div class="row">
-                					<div class="col-sm-6 col-md-8 col-lg-12">
-
-						<div style="margin-bottom:1em">
-                        <h2>今月号のピックアップ</h2>
-						</div>
-
-					</div>
-
-
-                                      <p class="sp_txt_cos">
-<strong style="color:#cc0000">第1回「未踏サロン」を7月31日（金）に開催！</strong><br>
-未踏社団として最初のイベント「未踏サロン」を開催します。参加方法や詳細は<a href="#contents2">本文にて</a>ご確認下さい。 </p>
-
-
-				</div><!-- .row -->
-
-			</div>
-
-        			<div class="container">
-
-				<div class="row">
-
-					<div class="col-sm-6 col-md-8 col-lg-12">
-
+					<div class="col-sm-6 col-md-8 col-lg-11">
 						<div style="margin-bottom:1em">
                         <h2>目次　<span class="callout-txt">見出しをクリックすると詳細へ移動します</span></h2>
 						</div>
-
 					</div>
-
 				</div><!-- .row -->
 
 			</div>
 
-			<div class="container">
+
+        		<div class="container">
 	
 
 				<div class="row">
 
 				<!-- Portfolio list start -->
-                <div class=" wow fadeInUp" data-wow-delay="0.6s">
+                <div class="wow fadeInUp" data-wow-delay="0.6s">
 				<ul id="works-grid" class="works-grid works-grid-gut works-grid-4 works-hover-w">
 
-<style type="text/css">
-.work-item a{
-	border:1px solid #ccc;
-	margin:0 0.5em;
-	padding:0 1em;
-}
-
-.work-item a:hover{
-	background-color:#e74c3c;
-	opacity: 1;
-}
-</style>
 					<!-- Portfolio item start -->
 					<li class="work-item">
 						<a href="#contents1">
@@ -234,7 +280,7 @@
 
 			</div>
 		</section>
-		<!-- Team end -->
+		<!-- TOC end -->
 
 
 		<!-- Callout start -->
@@ -270,7 +316,7 @@
 　未踏社団は多くの企業さまや個人のボランティアの活動やサービスに支えられております。特に下記の法人会員の企業さまからは未踏社団の運営や会員サービスに関して根幹的なサポートをいただいております。深く感謝申し上げます。ここから生まれた成果等についてはその都度このメールマガジンにて報告いたします。</p>
 
                 
-<p class="sp_txt_cos"><img src="images/takeuchi480.jpg" width="480" height="320" alt="竹内郁雄" align="right" style="padding:1em" /><strong>●法人会員 (加入順)</strong><br>
+<p class="sp_txt_cos"><img src="images/takeuchi480.jpg" width="480" height="320" alt="竹内郁雄" align="right" style="padding:1em" /><strong>●法人会員の皆様（年額360万円）（加入順）</strong><br>
 株式会社リクルートホールディングス<br>
 富士通株式会社<br>
 株式会社プロコミット<br>
@@ -278,7 +324,7 @@
 
 <p class="sp_txt_cos">また、下記の企業さまからは会員サービスに関して各種のサポートをいただいております。深く感謝申し上げます。特筆すべき活用事例等についてはその都度のこのメールマガジンにて報告いたします。</p>
 
-<p class="sp_txt_cos"><strong>●各種会員サービスをご提供いただいている企業・団体 (発音50音順)</strong><br>
+<p class="sp_txt_cos"><strong>●各種会員サービスをご提供いただいている企業・団体 （発音50音順）</strong><br>
 株式会社AGSコンサルティング<br>
 サイボウズ株式会社<br>
 Xamarin Inc.<br>
@@ -287,15 +333,16 @@ Xamarin Inc.<br>
 株式会社マネーフォワード<br>
 森・濱田法律事務所</p>
 
-<p class="sp_txt_cos">　このほかにもイベント等にはいろいろな企業さまにスポンサーになっていただいています。このような企業さまは今後も増えていくものと思います。ありがたいことです。<br><br>
+<p class="sp_txt_cos">　サービスの詳細は追って会員サイトにてお伝えいたしますが、ご興味のある方は事務局（head-office@mitou.org）までご連絡ください。<br><br>
+このほかにもイベント等にはいろいろな企業さまにスポンサーになっていただいています。このような企業さまは今後も増えていくものと思います。ありがたいことです。<br><br>
 
-　このほか、未踏IT人材発掘・育成事業を実施している独立行政法人情報処理推進機構 (IPA)、およびU22プログラミングコンテスト等を通じて人材の発掘を行い、IT関連のベンチャー育成に携わっている一般社団法人コンピュータソフトウェア協会 (CSAJ) とは「未踏コンソーシアム」を組み、緊密な連携を行っております。<br><br>
+　このほか、未踏IT人材発掘・育成事業を実施している独立行政法人情報処理推進機構（IPA）、およびU22プログラミングコンテスト等を通じて人材の発掘を行い、IT関連のベンチャー育成に携わっている一般社団法人コンピュータソフトウェア協会 （CSAJ）とは「未踏コンソーシアム」を組み、緊密な連携を行っております。<br><br>
 
 　未踏社団は人の集まりです。みなさまの自発的な活動が未踏社団を支え、発展させ、それがみなさまご自身の明日のよりよい活動や発展につながっていくと信じております。みなさまのお気持によって未踏社団のいろいろな事業や活動が盛り上がっていくことを期待しております。<br><br>
 
-　当面急がれるのは、未踏（的）人材のネットワーク作り、さらには日本型イノベーション・エコシステムの原型を形成することです。これについてはこれから精力的に進めていく予定です。みなさま方のご協力をよろしくお願い申し上げます。このメルマガ第1号のトップニュースで告知されている7月31日(金)の「未踏サロン」はその第一歩です。<br><br>
+　当面急がれるのは、未踏（的）人材のネットワーク作り、さらには日本型イノベーション・エコシステムの原型を形成することです。これについてはこれから精力的に進めていく予定です。みなさま方のご協力をよろしくお願い申し上げます。このメルマガ第1号のトップニュースで告知されている7月31日（金）の「未踏サロン」はその第一歩です。<br><br>
 
-　これと並行して、みなさまの草の根交流や、テーマを絞った相互啓発・イノベーションアイデアの創出に役立つ研究会やワーキンググループの活動を本格化させます。8月4日(火)にはそのための「未踏研究会キックオフ」を開催する予定です。このような活動を積極的にやってみたいと思っておられる会員のご参加をお待ちしております。<br><br>
+　これと並行して、みなさまの草の根交流や、テーマを絞った相互啓発・イノベーションアイデアの創出に役立つ研究会やワーキンググループの活動を本格化させます。8月4日（火）にはそのための「未踏研究会キックオフ」を開催する予定です。このような活動を積極的にやってみたいと思っておられる会員のご参加をお待ちしております。<br><br>
 
 　普段の私とはだいぶ雰囲気の異なる固いご挨拶になってしまいましたが、始めくらいはこんな感じでキリッとご挨拶するのもいいかと思いました。再度になりますが、どうかみなさまご自身と未踏社団双方の発展のためにご協力いただきますよう、お願い申し上げます。 </p>
                 
@@ -330,16 +377,18 @@ Xamarin Inc.<br>
 			<div class="container">
             <div class="row"><!--<div class="animated fadeInDown animated-visible" data-animation="fadeInDown animated-visible">-->
                 <div class="wow fadeInUp" data-wow-delay="0.4s">
-                                      <p class="sp_txt_cos">　未踏社団として最初のイベントとなる「未踏サロン」を開催します。第一回目のサロンは正会員を対象とした交流イベントです。<br><br>　当日は未踏社団の活動紹介の他、当日の自由参加によるLTの時間（各3分・計5組）も設けます。この機会に事業や近況の報告をしたい方は、当日、会場のLTスケジュールボードに記入して下さい（先着順）。会場は、通常は六本木ヒルズ・レジデンス入居者しか入れないレジデンスB棟最上階のスカイラウンジを貸し切ります。特に未踏の卒業生の方にとっては、近年のステータスを交換しあうことで、お互いのスキルや指向の再発見がなされ、ビジネス・イノベーションの契機につなげて欲しいと考えています。 </p>
+                                      <p class="sp_txt_cos">　皆様のご加入を祝して会員向けのキックオフイベント「第1回 未踏サロン」を7月31日（金）に、通常では入れない六本木ヒルズレジデンスB棟43Fのスカイラウンジを貸し切って行うことになりました。参加費は無料ですが、定員は50名ですので、先着順とさせていただきます。 <br><br>　当日は会員の皆様の交流を即しながら、未踏社団の活動紹介の他、プレゼンテーションの時間（各3分・計5組）も設けます。この機会に事業や近況の報告をしたい方は、当日、会場のLTスケジュールボードに記入して下さい（先着順）。<br><br>
+　会場は、通常は六本木ヒルズレジデンス入居者しか入れない、レジデンスB棟のスカイラウンジを貸し切ります。特に未踏の卒業生の方にとっては、近年のステータスを交換しあうことで、お互いのスキルや指向の再発見がなされ、自己研鑚の契機につなげて欲しいと考えています。 
+ </p>
                                       
-<p class="sp_txt_cos"><img src="images/skyrounge480.jpg" width="480" height="320" alt="スカイラウンジ" align="right" style="padding:1em" />日 時：7月31日（金）18:00-20:00<br>
-場 所：六本木ヒルズ・スカイラウンジ（六本木ヒルズレジデンスB棟・42階）<br>
+<p class="sp_txt_cos"><img src="images/skyrounge480.jpg" width="480" height="320" alt="スカイラウンジ" align="right" style="padding:1em" />日 時：7月31日（金）18:00-20:00（17:30受付開始）<br>
+場 所：六本木ヒルズレジデンス・スカイラウンジ（六本木ヒルズレジデンスB棟・43階）<br>
 住 所：〒106-0032 東京都港区六本木6丁目12-1_3<br>
 <a href="http://www.moriliving.com/ja/estate/residence/roppongihills">http://www.moriliving.com/ja/estate/residence/roppongihills</a><br>
 参加費：無料<br>
 定 員：50名（先着順）</p>
 
-<p class="sp_txt_cos"><strong>申し込み先のURL</strong><br>
+<p class="sp_txt_cos">参加希望の方は、こちらから申し込みお願いします。<strong><a href="https://members.mitou.org">https://members.mitou.org</a></strong><br>
 ※通常は入居者以外入れない場所でセキュリティチェックが厳しい場所のため、事前の登録申請が必要です。事前にお名前をいただいている方しか入場できません。当日の入場方法に関しては、申し込みを済ませた方に事務局からご案内および地図をお送りします。 </p>
 
                 
