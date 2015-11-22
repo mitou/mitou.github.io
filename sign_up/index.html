@@ -38,11 +38,12 @@
 
 <form action="http://nhiro.org:5000/api/" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="8YSEdDtA5vnYIdBaOLYoSRnE_nDaMIDIBfXnZw-5lwVpu-QNUI_izsCP-XSXX9Es7yXWQkiCigcFBZxM0Pi1kHHdt9paEajMmF9S39LPiU56uQ1VjLlxmGCCQG23TwzHv2I7kmPiPHjOvmTS25T19A2" />    <h2>正会員申し込みフォーム</h2>
     <h4>下記のフォームより正会員申し込みをお願い致します。</h4>
-入力された情報を元に代表理事が審査を行います。
+入力された情報を元に竹内代表理事が審査を行います。
     <hr />
     <div class="validation-summary-valid text-danger" data-valmsg-summary="true"><ul><li style="display:none"></li>
 </ul></div>
 
+<div class="form-group">
 <label for="mail" class="col col-xs-12 col-sm-2 col-md-2 control-label">メールアドレス*</label>
 <div class="col col-xs-12 col-sm-5 col-md-5">
   <div class="input-group">
@@ -50,8 +51,9 @@
   </div>
 </div>
 <span class="field-validation-valid text-danger" data-valmsg-for="mail" data-valmsg-replace="true"></span>
+</div>
 
-
+<div class="form-group">
 <label for="name" class="col col-xs-12 col-sm-2 col-md-2 control-label">氏名*</label>
 <div class="col col-xs-12 col-sm-5 col-md-5">
   <div class="input-group">
@@ -59,16 +61,9 @@
   </div>
 </div>
 <span class="field-validation-valid text-danger" data-valmsg-for="name" data-valmsg-replace="true"></span>
-
-
-<label for="name" class="col col-xs-12 col-sm-2 col-md-2 control-label">氏名*</label>
-<div class="col col-xs-12 col-sm-5 col-md-5">
-  <div class="input-group">
-    <input class="form-control" data-val="true" data-val-required="The 氏名 field is required." id="name" name="name" placeholder="山田 太郎" type="text" value="" />
-  </div>
 </div>
-<span class="field-validation-valid text-danger" data-valmsg-for="name" data-valmsg-replace="true"></span>
 
+<div class="form-group">
   <label for="name_en" class="col col-xs-12 col-sm-2 col-md-2 control-label">英字表記*</label>
   <div class="col col-xs-12 col-sm-5 col-md-5">
     <div class="input-group">
@@ -76,7 +71,7 @@
     </div>
   </div>
   <span class="field-validation-valid text-danger" data-valmsg-for="name_en" data-valmsg-replace="true"></span>
-
+</div>
 
 <div class="form-group">
   <label class="control-label col col-xs-12 col-sm-2 col-md-2" for="self_intro">自己紹介*</label>
