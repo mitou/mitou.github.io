@@ -14,7 +14,7 @@
 			submitSuccess: function($form, event) {
 				event.preventDefault();
 
-				var submit          = $('#contact-form submit');
+				var submit          = $('#contact-form button');
 				var ajaxResponse    = $('#contact-response');
 
 				var name            = $("input#cname").val();
