@@ -42,7 +42,11 @@
 						} else {
 							ajaxResponse.html(result.message);
 						}
-					}
+					},
+                                        error: function(result) {
+					        ajaxResponse.html("メールを送信しました。もし1週間以内にお返事差し上げない場合には何らかのトラブルによって不達になっている可能性があります。head-office@mitou.orgまでご一報ください。");
+					        $form.fadeOut(500);
+                                        }
 				});
 			}
 		});
