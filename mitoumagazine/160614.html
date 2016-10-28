@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
@@ -23,50 +23,31 @@
 
 <style type="text/css">
 body{
-color:#000;
-font-size:16px;
-line-height:1.7;
+  color:#000;
+  font-size:16px;
+  line-height:1.7;
 }
-.page-section{
+#main-title{
+  text-align:center;
 }
 #main-area{
-	padding:30px 20px;
-	border-top:15px solid #ccc;
+  padding:30px 20px;
+  border-top:15px solid #ccc;
 }
 h1.section-title{
-	margin:0 0 40px 0;
+  margin:0 0 40px 0;
 }
-#catch-image{
-	text-align:center;
-	margin:1em;
-	background:url(images/magazine7-main.jpg) no-repeat top center;
-	background-size:cover;
-	height:400px;
-	}
-
-		#catch-image div#pickup{
-		text-align:left;
- margin:1em;
- background-color:#000;
- opacity:0.8;
- padding:0 1em 1em 1em;
- border-radius:8px;
- border:1px solid #333;
-	}
-		#catch-image p{
-line-height:1.5;
-	}
-
-	#catch-image h2{
-	text-align:center;
-color:#fff;
-font-weight:normal;
-font-size:24px;
-border-bottom:1px solid #ccc;
-	}
-	.team-item {
-    position: relative;
-    text-align: left;
+.page-section h2.callout-title{
+  font-size:18px;
+  text-align:center;
+  color:#fff;
+  padding: 0.5em;
+  border-bottom:1px solid #cc0000;
+  display:inline-block;
+}
+.team-item {
+  position: relative;
+  text-align: left;
 }
 #toc h2{
 	font-size:24px;
@@ -74,17 +55,15 @@ border-bottom:1px solid #ccc;
 }
 
 #works-grid li{
-border-right:1px solid #999;
+  border-right:1px solid #999;
 }
 #works-grid li:nth-child(){
-border:none;
+  border:none;
 }
-
 .work-item a{
 	margin:0 0.25em;
 	padding:0 1em;
 }
-
 .work-item a:hover{
 	background-color:#e74c3c;
 	opacity: 1;
@@ -92,29 +71,8 @@ border:none;
 .callout-title{
 	font-weight:bold;
 }
-p.sp_txt_cos img{
-padding:0 0 1em 1em;
-}
 .footer p{
 	font-size:13px;
-}
-hr.clear{
-visibility:hidden;
-}
-h3{
-	font-size:20px;
-	font-weight:bold;
-border-bottom:1px solid #333;
-padding-top:1.5em;
-}
-ul{
-list-style-type:none;
-margin:0 1.5em;
-padding:0 1em;
-}
-ul li{
-padding:0 0 0.5em 0;
-line-height:1.6;
 }
 </style>
 
@@ -125,7 +83,7 @@ line-height:1.6;
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-69073468-1', 'auto');
+  ga('create', 'UA-60514144-1', 'auto');
   ga('send', 'pageview');
 
 </script>
@@ -191,7 +149,7 @@ line-height:1.6;
 	<div class="main">
 
 		<!-- Header section start -->
-		<section class="page-section" style="padding:0">
+		<section id="main-title" class="page-section" style="padding:0">
 			<div class="container bg-dark" id="main-area">
 
 				<div class="row">
@@ -201,21 +159,15 @@ line-height:1.6;
 						<h1 class="section-title">MITOU MAGAZINE</h1>
 						<div class="section-subtitle mb-0" style="padding-bottom:30px">2016年6月14日（第７号）</div>
 					</div>
+							<h2 class="callout-title">未踏研究会#3 予告、未踏ジュニア 開始、未踏IoT開発合宿#1 報告</h2>
+
 				</div><!-- .row -->
-				<div class="row">
-
-<div id="catch-image">
-<div class="col-sm-4" id="pickup">
-
-                        
-</div>
-
-</div>
-			</div>
+	
 	
 
 		</section>
 		<!-- Header section end -->
+
 
 
 		<!-- TOC start -->
@@ -241,7 +193,7 @@ line-height:1.6;
 
 				<!-- Portfolio list start -->
                 <div class="wow fadeInUp" data-wow-delay="0.6s">
-				<ul id="works-grid" class="works-grid works-grid-gut works-grid-5 works-hover-w">
+				<ul id="works-grid" class="works-grid works-grid-gut works-grid-6 works-hover-w">
 
 					<!-- Portfolio item start -->
 					<li class="work-item">
@@ -278,7 +230,7 @@ line-height:1.6;
 						</a>
 					</li>
 					<!-- Portfolio item end -->
-		
+					
 					<!-- Portfolio item start -->
 					<li class="work-item">
 						<a href="#contents4">
@@ -290,7 +242,7 @@ line-height:1.6;
 						</a>
 					</li>
 					<!-- Portfolio item end -->
-		
+				
 					<!-- Portfolio item start -->
 					<li class="work-item">
 						<a href="#contents5">
@@ -302,6 +254,7 @@ line-height:1.6;
 						</a>
 					</li>
 					<!-- Portfolio item end -->
+                    
 
 				</ul>
                 </div>
@@ -543,15 +496,52 @@ Medical Crisis研究会では、医療において生じている様々な問題
 			</div>
 		</section>
 		<!-- Latest blog posts end -->
+
+<!-- Callout start -->
+		<section id="contents99"  class="page-section-small bg-white">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-lg-12">
+
+						<div>
+							<h2 class="callout-title">[ MITOU MAGAZINE ]</h2>
+						</div>
+
+					</div>
+
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Callout end -->
+		<!-- Latest blog posts start News-->
+
+		<section id="news" class="page-section">
+			<div class="container">
+            <div class="row"><!--<div class="animated fadeInDown animated-visible" data-animation="fadeInDown animated-visible">-->
+                <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                      <p class="sp_txt_cos">
+　未踏社団は以下の法人会員の会員費で運営されています。<br /><br />
+
+　　富士通株式会社　株式会社リクルートホールディングス　さくらインターネット株式会社　株式会社プロコミット<br /><br />
+
+発行元：一般社団法人未踏　 <a href="http://www.mitou.org/">http://www.mitou.org/</a><br />
+今回の担当：事務局・西尾</p>
+
+                
+                </div>
+				</div><!-- .row -->
+
+			</div>
+		</section>
+		<!-- Latest blog posts end -->
+
+
 		
 		<!-- Divider -->
 		<hr class="divider-d">
-<!--
-未踏社団は以下の法人会員の会員費で運営されています。<br />
-富士通株式会社　
-株式会社リクルートホールディングス　
-さくらインターネット株式会社　
-株式会社プロコミット　-->
 		<!-- Divider -->
 	
 		<!-- Footer start -->
@@ -561,7 +551,7 @@ Medical Crisis研究会では、医療において生じている様々な問題
 				<div class="row">
 	
 					<div class="col-sm-6">
-						<p class="copyright font-alt">c 2015 <a href="../index.html">Copyright Mitou Foundation. </a> All Rights Reserved.</p>
+						<p class="copyright font-alt">c 2016 <a href="../index.html">Copyright Mitou Foundation. </a> All Rights Reserved.</p>
                         <p><a href="../commercial_transactions.html" target="_top">特定商取引法に基づく表示</a></p>
 					</div>
 	
