@@ -1675,6 +1675,12 @@ border:none;
 	background-color:#e74c3c;
 	opacity: 1;
 }
+#group h4.media-heading a {
+	color:#000000;
+}
+#group h4.media-heading a:hover {
+	color:#e74c3c;
+}
 	
 /* -------------------------------------------------------------------
 Responsive Media Querries
