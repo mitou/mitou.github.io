@@ -1634,6 +1634,54 @@ Scroll to top
 		padding-top: 23px;
 	}
 	
+
+/* -------------------------------------------------------------------
+group
+------------------------------------------------------------------- */	
+#group  hr {
+	border-top: solid 1px #ccc;
+}
+#group .group_txt {
+	font-size:17px;
+	padding-bottom:30px;
+}
+#group  .group_top h3 {
+	font-size:18px;
+	font-weight:bold;
+}
+#group  .group_top p {
+	line-height:1.6;
+}
+img.projects_list_img {
+	max-width:100px;
+	max-height:100px;
+	margin:0 20px;
+	border: solid 1px #ccc;
+}
+#group .team-item {
+	text-align:left;
+}
+#group #works-grid li{
+border-right:1px solid #999;
+}
+#group #works-grid li:nth-child(){
+border:none;
+}
+#group .work-item a{
+	margin:0 0.25em;
+	padding:0 1em;
+}
+#group .work-item a:hover{
+	background-color:#e74c3c;
+	opacity: 1;
+}
+#group h4.media-heading a {
+	color:#000000;
+}
+#group h4.media-heading a:hover {
+	color:#e74c3c;
+}
+	
 /* -------------------------------------------------------------------
 Responsive Media Querries
 ------------------------------------------------------------------- */
