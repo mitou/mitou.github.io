@@ -1687,6 +1687,18 @@ border:none;
 #group h4.media-heading a:hover {
 	color:#e74c3c;
 }
+
+/* -------------------------------------------------------------------
+news
+------------------------------------------------------------------- */
+#news .day-w {
+	min-width:220px;
+}
+#news .day {
+	min-width:90px;
+	float:left;
+	margin-right:10px;
+}
 	
 /* -------------------------------------------------------------------
 Responsive Media Querries
