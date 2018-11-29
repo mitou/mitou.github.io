@@ -1687,6 +1687,17 @@ border:none;
 #group h4.media-heading a:hover {
 	color:#e74c3c;
 }
+/* -------------------------------------------------------------------
+ai_frontier
+------------------------------------------------------------------- */
+.ai_frontier h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 40px 0 10px 0;
+}
+.ai_frontier h3.top {
+	margin: 10px 0 10px 0;	
+}
 
 /* -------------------------------------------------------------------
 news
