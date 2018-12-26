@@ -1708,6 +1708,10 @@ ai_frontier
 	margin: 0 0 10px 0;
 	padding:0px 0px 8px 0px;
 }
+.ai_frontier h4.name span {
+	font-weight: normal;
+	font-size: 16px;
+}
 .ai_frontier .box {
 	border: #ccc solid 1px;
 	padding: 30px 10px 0px 10px;
