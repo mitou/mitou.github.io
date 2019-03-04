@@ -1719,6 +1719,28 @@ ai_frontier
 	border-radius: 5px;
 	background: #fff;
 }
+.ai_frontier .box dl{
+	clear: both;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.ai_frontier .box dt {
+	float: left;
+	padding:0 20px 0 8px;
+	width: 15%;
+	border-left: solid 5px #ccc;
+	margin-bottom: 15px;
+	line-height: 1.8em;
+}
+.ai_frontier .box dd {
+	float: left;
+	width: 85%;
+	padding:0;
+	margin-bottom: 15px;
+	line-height: 1.8em;
+	
+	
+}
 
 /* -------------------------------------------------------------------
 news
@@ -1966,6 +1988,14 @@ Responsive Media Querries
 
 	.scroll-up {
 		display: none !important;
+	}
+	
+	/* .ai_frontier*/
+	.ai_frontier .box dt,
+	.ai_frontier .box dd {
+		float: none;
+		width: 100%;
+		
 	}
 
 }
