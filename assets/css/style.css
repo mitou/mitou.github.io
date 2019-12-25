@@ -1741,6 +1741,17 @@ ai_frontier
 	
 	
 }
+.ai_frontier .btn-form {
+	font-size: 15px;
+	background: #bee3ae;
+	border: solid 1px #47790f;
+	color:  #2B4909;
+	padding: 15px 30px;
+}
+.ai_frontier .btn-form:hover {
+	background: #D4E2BC;
+	border: solid #506A24 1px;
+}
 
 /* -------------------------------------------------------------------
 news
