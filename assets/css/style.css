@@ -1640,6 +1640,33 @@ Scroll to top
 		padding-top: 23px;
 	}
 	
+/* -------------------------------------------------------------------
+project
+------------------------------------------------------------------- */
+#project .img-area div {
+	max-width: 800px;
+	margin: 40px auto;
+}
+#project .img-area  h4 {
+	font-size: 16px;
+} 
+.line-box {
+	border: #ccc solid 1px;
+	padding: 30px;
+	margin: 0px 0px 20px;
+	border-radius: 5px;
+	background: #fff;
+}
+.jr-box h3 {
+	font-size: 20px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+.jr-box h4 {
+	font-size: 16px;
+	margin-top: 0px;
+	font-weight: bold;
+}
 
 /* -------------------------------------------------------------------
 group
@@ -1686,6 +1713,71 @@ border:none;
 }
 #group h4.media-heading a:hover {
 	color:#e74c3c;
+}
+/* -------------------------------------------------------------------
+ai_frontier
+------------------------------------------------------------------- */
+.ai_frontier h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 40px 0 10px 0;
+}
+.ai_frontier h3.top {
+	margin: 10px 0 10px 0;	
+}
+.ai_frontier h4 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+.ai_frontier h4.name {
+	border-bottom: #ccc solid 1px;
+	margin: 0 0 10px 0;
+	padding:0px 0px 8px 0px;
+}
+.ai_frontier h4.name span {
+	font-weight: normal;
+	font-size: 16px;
+}
+.ai_frontier .box {
+	border: #ccc solid 1px;
+	padding: 30px 10px 0px 10px;
+	margin: 10px 10px 20px 10px;
+	border-radius: 5px;
+	background: #fff;
+}
+.ai_frontier .box dl{
+	clear: both;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.ai_frontier .box dt {
+	float: left;
+	padding:0 20px 0 8px;
+	width: 15%;
+	border-left: solid 5px #ccc;
+	margin-bottom: 15px;
+	line-height: 1.8em;
+}
+.ai_frontier .box dd {
+	float: left;
+	width: 85%;
+	padding:0;
+	margin-bottom: 15px;
+	line-height: 1.8em;
+	
+	
+}
+.ai_frontier .btn-form {
+	font-size: 15px;
+	background: #bee3ae;
+	border: solid 1px #47790f;
+	color:  #2B4909;
+	padding: 15px 30px;
+}
+.ai_frontier .btn-form:hover {
+	background: #D4E2BC;
+	border: solid #506A24 1px;
 }
 
 /* -------------------------------------------------------------------
@@ -1934,6 +2026,14 @@ Responsive Media Querries
 
 	.scroll-up {
 		display: none !important;
+	}
+	
+	/* .ai_frontier*/
+	.ai_frontier .box dt,
+	.ai_frontier .box dd {
+		float: none;
+		width: 100%;
+		
 	}
 
 }
