@@ -1781,6 +1781,54 @@ ai_frontier
 }
 
 /* -------------------------------------------------------------------
+interview
+------------------------------------------------------------------- */
+.interview h3 {
+	font-size: 20px;
+	margin: 40px 0;
+}
+.interview .name {
+	font-weight: bold;
+}
+.interview .box {
+	border: #ccc solid 1px;
+	padding: 30px 10px 0px 10px;
+	margin: 10px 10px 20px 10px;
+	border-radius: 5px;
+	background: #fff;
+	overflow-wrap: break-word;
+}
+.interview .box dl{
+	clear: both;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.interview .box dt {
+	float: left;
+	padding:0 20px 0 8px;
+	width: 15%;
+	border-left: solid 5px #ccc;
+	margin-bottom: 15px;
+	line-height: 1.8em;
+}
+.interview .box dd {
+	float: left;
+	width: 85%;
+	padding:0;
+	margin-bottom: 15px;
+	line-height: 1.8em;	
+}
+#interview h3 {
+	font-size: 18px;
+}
+#interview h3 a {
+	color: #000;
+}
+#interview h3 a:hover {
+	color:#e74c3c;
+}
+
+/* -------------------------------------------------------------------
 news
 ------------------------------------------------------------------- */
 #news .day-w {
@@ -1791,7 +1839,7 @@ news
 	float:left;
 	margin-right:10px;
 }
-	
+
 /* -------------------------------------------------------------------
 Responsive Media Querries
 ------------------------------------------------------------------- */
