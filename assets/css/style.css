@@ -1847,6 +1847,36 @@ news
 	margin-right:10px;
 }
 
+/* -------------------------------------------------------------------
+board_list
+------------------------------------------------------------------- */
+
+#board_list .board_box {
+	border-bottom:solid 1px #eee;
+}
+#board_list .board_box a {
+	color: #000;
+	padding: 20px 0;
+	display: flex;
+}
+#board_list .board_box a:hover{	
+	background: #eee;
+}
+#board_list .board_box a:after{	
+	content: "\00BB";
+	color: #666666;
+	padding-right: 5px;
+}
+#board_list .board_box p {
+	margin-bottom: 0px;
+}
+#board_list .name {
+	font-weight: bold;
+	font-size: 16px;
+}
+#board_list .widget {
+	text-align: right;
+}
 
 /* -------------------------------------------------------------------
 privacy
@@ -1929,6 +1959,9 @@ Responsive Media Querries
 	.works-grid-4 .work-item,
 	.works-grid-5 .work-item {
 		width: 50%;
+	}
+	.callout-txt {
+		display: block;
 	}
 
 }
