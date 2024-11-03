@@ -741,7 +741,7 @@ Sections
 ------------------------------------------------------------------- */
 
 .navbar-custom + .main {
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 .main {
@@ -1891,6 +1891,12 @@ privacy
 Responsive Media Querries
 ------------------------------------------------------------------- */
 
+@media (min-width: 980px) and (max-width: 1199px) {
+	.navbar-custom + .main {
+	margin-top: 115px;
+	}
+}
+
 @media (max-width: 1200px) {
 
 	/* Features */
@@ -2002,7 +2008,11 @@ Responsive Media Querries
 }
 
 @media (max-width: 992px) {
-
+	
+	.navbar-custom + .main {
+	margin-top: 55px;
+	}
+	
 	/* Navbar */
 
 	.navbar-custom .navbar-nav {
