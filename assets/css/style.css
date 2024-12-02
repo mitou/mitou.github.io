@@ -1833,7 +1833,33 @@ interview
 #interview h3 a:hover {
 	color:#e74c3c;
 }
-
+#interview_list .interview_box {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin:20px auto; 
+}
+#interview_list .line-box {
+	margin: 15px 10px;
+	width: 45%;
+}
+#interview_list .line-box:hover {
+	background: #eee;
+}
+#interview_list a {
+	color: #000;
+}
+#interview_list .line-box p {
+	margin-bottom: 10px;
+}
+#interview_list h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+#interview_list a p.btn-area {
+	color: #e74c3c;
+	margin-bottom: 0px;
+}
 
 /* -------------------------------------------------------------------
 news
