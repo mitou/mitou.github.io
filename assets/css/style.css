@@ -1645,6 +1645,9 @@ boardmembers
 #boardmembers .list span {
 	font-weight: bold;
 }
+#boardmembers .btn-default {
+	font-size: 13px;
+}
 
 /* -------------------------------------------------------------------
 project
@@ -1824,6 +1827,12 @@ interview
 	margin-bottom: 15px;
 	line-height: 1.8em;	
 }
+.interview_txt a {
+	color: #000;
+}
+.interview .callout-title {
+	font-size: 25px;
+}
 #interview h3 {
 	font-size: 18px;
 }
@@ -1843,9 +1852,6 @@ interview
 	margin: 15px 10px;
 	width: 45%;
 }
-#interview_list .line-box:hover {
-	background: #eee;
-}
 #interview_list a {
 	color: #000;
 }
@@ -1859,6 +1865,14 @@ interview
 #interview_list a p.btn-area {
 	color: #e74c3c;
 	margin-bottom: 0px;
+}
+.interview .name-box {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px 20px 0px 20px;
+}
+.interview .name-box .name {
+	margin: 0px 0px 10px 0;
 }
 
 /* -------------------------------------------------------------------
@@ -2167,6 +2181,10 @@ Responsive Media Querries
 		float: none;
 		width: 100%;
 		
+	}
+	/* .interview*/
+	#interview_list .line-box {
+		width: 100%;
 	}
 }
 
