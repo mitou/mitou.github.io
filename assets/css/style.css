@@ -1793,11 +1793,16 @@ ai_frontier
 interview
 ------------------------------------------------------------------- */
 .interview h3 {
-	font-size: 20px;
-	margin: 40px 0;
+	font-size: 18px;
+	margin: 30px 0 20px 0;
+	font-weight: bold;
 }
 .interview .name {
 	font-weight: bold;
+}
+.interview_txt .name{
+	font-weight: bold;
+	margin: 10px 0;
 }
 .interview .box {
 	border: #ccc solid 1px;
@@ -1858,6 +1863,10 @@ interview
 #interview_list .line-box p {
 	margin-bottom: 10px;
 }
+#interview_list .line-box .name {
+	font-weight: bold;
+	line-height: 1.4em;
+}
 #interview_list h3 {
 	font-size: 20px;
 	font-weight: bold;
@@ -1865,6 +1874,12 @@ interview
 #interview_list a p.btn-area {
 	color: #e74c3c;
 	margin-bottom: 0px;
+}
+.interview h1 {
+	font-size: 30px;
+}
+.interview .page-section {
+	padding: 40px 0;
 }
 .interview .name-box {
 	max-width: 900px;
@@ -2182,10 +2197,11 @@ Responsive Media Querries
 		width: 100%;
 		
 	}
-	/* .interview*/
+	
 	#interview_list .line-box {
 		width: 100%;
 	}
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -2197,6 +2213,21 @@ Responsive Media Querries
 		width: 100%;
 	}
 
+	/* .interview*/
+	.interview h1 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+	.interview .page-section {
+	padding: 20px 0;
+}
+	.interview h4.name {
+		font-size: 18px;
+	}
+	.interview h3 {
+		font-size: 16px;
+	line-height: 1.6em;
+	}
 }
 
 /* -------------------------------------------------------------------
