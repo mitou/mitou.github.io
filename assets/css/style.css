@@ -1797,7 +1797,8 @@ interview
 	margin: 30px 0 20px 0;
 	font-weight: bold;
 }
-.interview .name {
+.interview .name,
+.interview .job {
 	font-weight: bold;
 }
 .interview_txt .name{
