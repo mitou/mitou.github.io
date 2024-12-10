@@ -1645,6 +1645,9 @@ boardmembers
 #boardmembers .list span {
 	font-weight: bold;
 }
+#boardmembers .btn-default {
+	font-size: 13px;
+}
 
 /* -------------------------------------------------------------------
 project
@@ -1790,11 +1793,17 @@ ai_frontier
 interview
 ------------------------------------------------------------------- */
 .interview h3 {
-	font-size: 20px;
-	margin: 40px 0;
-}
-.interview .name {
+	font-size: 18px;
+	margin: 30px 0 20px 0;
 	font-weight: bold;
+}
+.interview .name,
+.interview .job {
+	font-weight: bold;
+}
+.interview_txt .name{
+	font-weight: bold;
+	margin: 10px 0;
 }
 .interview .box {
 	border: #ccc solid 1px;
@@ -1824,6 +1833,12 @@ interview
 	margin-bottom: 15px;
 	line-height: 1.8em;	
 }
+.interview_txt a {
+	color: #000;
+}
+.interview .callout-title {
+	font-size: 25px;
+}
 #interview h3 {
 	font-size: 18px;
 }
@@ -1833,7 +1848,48 @@ interview
 #interview h3 a:hover {
 	color:#e74c3c;
 }
-
+#interview_list .interview_box {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin:20px auto; 
+}
+#interview_list .line-box {
+	margin: 15px 10px;
+	width: 45%;
+}
+#interview_list a {
+	color: #000;
+}
+#interview_list .line-box p {
+	margin-bottom: 10px;
+}
+#interview_list .line-box .name {
+	font-weight: bold;
+	line-height: 1.4em;
+}
+#interview_list h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+#interview_list a p.btn-area {
+	color: #e74c3c;
+	margin-bottom: 0px;
+}
+.interview h1 {
+	font-size: 30px;
+}
+.interview .page-section {
+	padding: 40px 0;
+}
+.interview .name-box {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px 20px 0px 20px;
+}
+.interview .name-box .name {
+	margin: 0px 0px 10px 0;
+}
 
 /* -------------------------------------------------------------------
 news
@@ -2142,6 +2198,11 @@ Responsive Media Querries
 		width: 100%;
 		
 	}
+	
+	#interview_list .line-box {
+		width: 100%;
+	}
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -2153,6 +2214,21 @@ Responsive Media Querries
 		width: 100%;
 	}
 
+	/* .interview*/
+	.interview h1 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+	.interview .page-section {
+	padding: 20px 0;
+}
+	.interview h4.name {
+		font-size: 18px;
+	}
+	.interview h3 {
+		font-size: 16px;
+	line-height: 1.6em;
+	}
 }
 
 /* -------------------------------------------------------------------
