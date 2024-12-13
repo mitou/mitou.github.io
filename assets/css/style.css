@@ -695,6 +695,8 @@ Navbar
 	margin-top: -20px;
 }
 
+
+
 /* -------------------------------------------------------------------
 Home Section
 ------------------------------------------------------------------- */
@@ -2055,6 +2057,11 @@ Responsive Media Querries
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
+	
+	.dropdown {
+	padding-right: 5px;
+	}
+	
 	/* Comments */
 
 	.comment .comment {
@@ -2312,6 +2319,7 @@ h1,h1{font-size:36px}.h2,h2{font-size:30px}.h3,h3{font-size:28px}.h4,h4{font-siz
 	margin-left: 0px;
 }
 }
+
 /* -------------------------------------------------------------------
 acordion
 ------------------------------------------------------------------- */
