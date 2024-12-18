@@ -1806,6 +1806,7 @@ interview
 .interview_txt .name{
 	font-weight: bold;
 	margin: 10px 0;
+	line-height: 1.6em;
 }
 .interview .box {
 	border: #ccc solid 1px;
