@@ -1647,8 +1647,15 @@ boardmembers
 #boardmembers .list span {
 	font-weight: bold;
 }
-#boardmembers .btn-default {
-	font-size: 13px;
+#boardmembers .list-btn {
+	clear: both;	
+}
+#boardmembers .list-btn .btn-default {
+	margin: 20px 0 20px 0;
+	font-size: 14px;
+}
+#boardmembers .list-btn .btn-default:hover{
+	
 }
 
 /* -------------------------------------------------------------------
@@ -1893,6 +1900,32 @@ interview
 .interview .name-box .name {
 	margin: 0px 0px 10px 0;
 }
+#interview .list-btn {
+	clear: both;	
+}
+#interview .list-btn .btn-default {
+	margin-top: 20px;
+	font-size: 14px;
+}
+@media only screen and (max-width: 480px) {
+	#interview .col-sm-12 {
+		padding: 0px;
+	}
+	#interview .col-sm-12 .col-lg-12 {
+		padding: 5px;
+	}
+	#interview .line-box {
+		padding: 20px 30px;
+	}
+	#interview .line-box p.btn {
+		text-align: center;
+		margin: 0 auto;
+	}
+	#interview .list-btn .btn-default {
+	margin-top: 10px;
+	font-size: 14px;
+}
+}
 
 /* -------------------------------------------------------------------
 news
@@ -1949,12 +1982,6 @@ privacy
 /* -------------------------------------------------------------------
 Responsive Media Querries
 ------------------------------------------------------------------- */
-
-@media (min-width: 980px) and (max-width: 1199px) {
-	.navbar-custom + .main {
-	margin-top: 115px;
-	}
-}
 
 @media (max-width: 1200px) {
 
