@@ -1851,6 +1851,7 @@ interview
 }
 #interview h3 {
 	font-size: 18px;
+	line-height: 140%;
 }
 #interview h3 a {
 	color: #000;
@@ -1907,6 +1908,12 @@ interview
 	margin-top: 20px;
 	font-size: 14px;
 }
+#interview .box-area {
+	 display:flex;
+}
+#interview .line-box {
+	margin: 0 15px 30px;
+}
 @media only screen and (max-width: 480px) {
 	#interview .col-sm-12 {
 		padding: 0px;
@@ -1916,6 +1923,7 @@ interview
 	}
 	#interview .line-box {
 		padding: 20px 30px;
+		margin: 0 0 30px;
 	}
 	#interview .line-box p.btn {
 		text-align: center;
@@ -1924,6 +1932,11 @@ interview
 	#interview .list-btn .btn-default {
 	margin-top: 10px;
 	font-size: 14px;
+}
+}
+@media only screen and (max-width: 992px) {
+	#interview .box-area {
+	 display:block;
 }
 }
 
