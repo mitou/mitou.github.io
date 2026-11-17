@@ -1264,6 +1264,33 @@ Portfolio
 	   -moz-transform: translateY(-50%);
 	        transform: translateY(-50%);
 }
+/* Caption always shown below the image (Products on the top page) */
+
+.works-caption-below .work-caption,
+.works-caption-below .work-item:hover .work-caption {
+	position: static;
+	opacity: 1;
+	padding: 10px 2px 14px;
+	text-align: left;
+	-webkit-transform: none;
+	   -moz-transform: none;
+	        transform: none;
+}
+
+.works-grid.works-caption-below .work-item .work-title {
+	font-size: 15px;
+	color: #111;
+	margin: 0 0 4px;
+}
+
+.works-caption-below .work-descr {
+	font-size: 13px;
+	line-height: 1.5;
+	color: #666;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
 .contents-title {
 	padding-top:60px;
 }
